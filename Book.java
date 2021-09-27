@@ -44,5 +44,12 @@ class Book
         System.out.println(getTitle());
     }
     
+    public void printDetails() { 
+        System.out.println("Book Details");
+        System.out.println("\n");
+        System.out.println("Title: " + getTitle());
+        System.out.println("Author: " + getAuthor());
+        System.out.println("Number of Pages: " + getPages());        
+    }
     
 }
