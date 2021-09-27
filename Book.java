@@ -42,6 +42,15 @@ class Book
         return refNumber;  
     }
     
+    public void setRefNumber() { 
+        if(refNumber.length()>= 3) {
+            this.refNumber = refNumber;    
+        }
+        else { 
+            System.out.println("Incorrect Reference Number");
+        }
+    }
+
     public void printAuthor() { 
         System.out.println(getAuthor());
     }
